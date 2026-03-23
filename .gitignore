@@ -1,26 +1,45 @@
-# Node.js
-node_modules/
-npm-debug.log*
-package-lock.json
+# 环境变量文件（包含敏感信息）
+.env
+.env.local
+.env.*.local
+
+# OpenClaw 本地元数据
+.clawhub/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Logs
-logs/
-*.log
-
-# Temp files
-tmp/
-temp/
-
-# OpenClaw directory (不要上传)
-workspace/
-openclaw/
+# 测试文件（临时）
+/tmp/
+test_*.png
+test_*.pdf
